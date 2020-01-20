@@ -14,6 +14,7 @@ var bodySize = 20;
 
 function reset(){
   dir = 'right'
+  newDir = 'right'
   speed = { x: 20, y: 0 }
   body = [
     { x: 200, y: 200 },
